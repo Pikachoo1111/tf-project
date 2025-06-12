@@ -1,0 +1,29 @@
+# Core dependencies for Aphasia Object Recognition System
+
+# Computer Vision
+opencv-python>=4.5.0
+
+# TensorFlow Lite (choose one based on your Pi architecture)
+# For Raspberry Pi with ARM64:
+# tflite-runtime>=2.5.0
+# For systems with full TensorFlow:
+tensorflow>=2.8.0
+
+# GPIO and Hardware
+gpiozero>=1.6.0
+RPi.GPIO>=0.7.0
+
+# Camera (Raspberry Pi Camera)
+picamera2>=0.3.0
+
+# Audio/System
+# espeak should be installed via apt: sudo apt-get install espeak
+
+# Utilities
+numpy>=1.19.0
+Pillow>=8.0.0
+
+# Optional: For better performance on Raspberry Pi
+# Install these via apt if available:
+# sudo apt-get install python3-opencv
+# sudo apt-get install python3-numpy
